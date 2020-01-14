@@ -1,0 +1,39 @@
+{
+  "startup_app": {
+    "autoShow": true,
+    "defaultHeight": 768,
+    "defaultWidth": 1280,
+    "description": "main window",
+    "frame": true,
+    "minHeight": 650,
+    "minWidth": 1050,
+    "name": "Popup Example",
+    "url": "http://localhost:8080",
+    "uuid": "popup-example",
+    "api": {
+      "iframe": {
+        "crossOriginInjection": true
+      }
+    },
+    "cornerRounding": {
+      "width": 5,
+      "height": 5
+    },
+    "permissions": {
+      "ExternalWindow": {
+        "wrap": true
+      },
+      "System": {
+        "getAllExternalWindows": true,
+        "launchExternalProcess": true,
+        "readRegistryValue": false,
+        "terminateExternalProcess": true
+      }
+    }
+  },
+  "runtime": {
+    "arguments": "--disable-gpu",
+    "version": "14.78.46.23"
+  },
+  "shortcut": {}
+}
