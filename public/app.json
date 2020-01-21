@@ -32,7 +32,7 @@
     }
   },
   "runtime": {
-    "arguments": "--disable-gpu",
+    "arguments": "",
     "version": "14.78.46.23"
   },
   "shortcut": {}

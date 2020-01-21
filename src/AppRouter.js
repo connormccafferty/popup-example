@@ -8,7 +8,7 @@ const AppRouter = () => {
     <Router>
       <Switch>
         <Route path="/" component={Home} exact />
-        <Route path="/popup/:id" component={Popup} exact />
+        <Route path="/popup" component={Popup} exact />
       </Switch>
     </Router>
   );
